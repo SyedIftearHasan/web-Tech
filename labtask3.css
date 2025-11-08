@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.formContainer {
+  background-color: rgb(219, 220, 221);
+  padding: 30px;
+  padding-left: 80px;
+  border-radius: 5px;
+}
+
+.req {
+  color: #f02f2f;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: larger;
+  font-weight: bold;
+}
+h2 {
+  color: #f02f2f;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.formRow {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+label {
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 80px;
+  min-width: 300px;
+  resize: vertical;
+}
+
+.donationAmount {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.checkboxGroup {
+  margin-left: 160px;
+  margin-bottom: 10px;
+}
+.checkboxGroup2 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #999;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.note {
+  font-size: 12px;
+  color: #666;
+  margin-left: 170px;
+}
+
+.secureNote {
+  font-size: 11px;
+  color: #666;
+  margin-top: 20px;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+@media (max-width: 400px) {
+ form {
+ width: 90%;
+ }
+}
+button:hover {
+ background-color: #007bff;
+}
+
